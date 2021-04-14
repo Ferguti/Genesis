@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0B2F3A;
+}
+
+header{
+    color: #fff;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-menu h2{
+    font-weight: 300px;
+}
+
+.logo-menu{
+    background: #00171f;
+}
+
+.logo-menu h2{
+    font-size: 30px;
+}
+
+.logo-menu .menu a{
+    display: inline-block;
+    padding: 40px 20px;
+}
+
+.logo-menu .menu a:hover{
+   color: tomato;
+   border-bottom: 4px solid tomato;
+   padding-bottom: 36px;
+}
+
+.logo-uni{
+    margin-top: 100px;
+}
+
+.logo_uptbal{
+    background: #00171f;
+	border: solid 7px;
+	border-radius: 25%;
+	border-color: #00171f;	
+}
+
+/* main */
+
+.main{
+    color:#fff; 
+    margin-top: 100px;   
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    background: #00171f;
+    padding: 10px;
+}
+ 
+p{
+    width: 70%;
+    line-height: 30px;
+    font-weight: unset;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    color: tomato;
+    font-weight: bold;
+}
+
+.recordatorio{
+    color: tomato;
+    font-weight: bold;
+}
+
+.felicitaciones{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{    
+    background: #00171f;
+    padding: 10px;
+    font-size: 10px;   
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
